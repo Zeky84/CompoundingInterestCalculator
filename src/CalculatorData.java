@@ -15,8 +15,10 @@ public class CalculatorData {
             else{
                 System.out.println("Please select a value in the range between:" + minNumber +" - " + maxNumber);
             }
+            numberInput.close();
         }
         return myReturn;
+
     }
     Double yearInitialInvestment(Double amount, Double yearlyInterestRate, Double interestRate){
         return amount*(yearlyInterestRate + interestRate);
