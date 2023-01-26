@@ -10,9 +10,8 @@ public class Calculator {
             Double total1year = values.yearInitialInvestment(amount,interest,interestRate);
             amount = total1year;
             if (y==1 | y % 5 ==0){
-            System.out.println("Calculate " + y +"st year of compounding interest = " + total1year);
+                System.out.println("Calculate " + y +"st year of compounding interest = " + total1year);
             }
-
         }
     }
 }
